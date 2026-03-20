@@ -15,11 +15,11 @@ body {
 
 div {
     min-height: 100vh;
-    max-width: 1900px;
+    max-width: 1800px;
     padding: 20px;
-    margin: 1em;
-    font-family: Arial, sans-serif;
-    border-radius: 10px;
+    margin: 2em;
+    font-family: 'Arial', sans-serif;
+    border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: white;
     display: flex;
@@ -33,45 +33,64 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 section {
-    margin-bottom: 30px;
-    border-bottom: 2px solid #fafafa;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #fafafa;
+    padding: 10px;
+    line-height: 2.5;
 }
 
-article {
+main {
+    width: 90%;
+    max-width: 1200px;
     padding: 40px;
-
+    background-color: #ddd;
+    border-radius: 15px;
 }
 
 p {
-    color: #666;
-    padding: 5px;
-    margin: 10px;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
 }
 
-.shytchka article {
+.pk {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    gap: 10px;
+    border-bottom: 1px #f4f4f4 solid;
+    border-top: 1px #f4f4f4 solid;
+    gap: 30px;
+    margin-top: 40px;
+    padding: 20px;
 }
 
-.img {
+.pk img {
     max-width: 100%;
+    height: 400px;
+    margin: 20px 0;
 }
 
-.img-article {
-    background-color: #f4f4f4;
-    border-radius: 5px;
-    flex-basis: 33%;
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    border-top: #fafafa 5px solid;
+    border-bottom: #fafafa 5px solid;
 }
 
-.blue-line-article{
-    border-left: 4px solid #0073e7;
-    background-color: #ddd;
+.zxc article {
+    padding: 10px;
+    border-left: 3px solid #8113e7;
+    background-color: #fafafa;
+    border-bottom: 1px #f4f4f4 solid;
+    border-top: 1px #f4f4f4 solid;
+}
